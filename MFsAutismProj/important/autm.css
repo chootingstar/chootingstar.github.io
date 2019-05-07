@@ -1,0 +1,55 @@
+/*Navigation bar*/
+#nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+/*
+#nav {
+    grid-column: start;
+    text-align: center;
+}
+*/
+#nav li a{
+    text-decoration: none;
+}
+#nav li:nth-child(1) a{
+    text-decoration-color: aqua;
+}
+#nav li:nth-child(2) a{
+    text-decoration-color: red;
+}
+#nav li:nth-child(3) a{
+    text-decoration-color: green;
+}
+#nav li:nth-child(4) a{
+    text-decoration-color: purple;
+}
+#nav li:nth-child(5) a{
+    text-decoration-color: maroon;
+}
+/*Background color*/
+#body {
+    background-color: #F2003C;
+}
+/*Front page size and alignment*/
+
+#body p{
+    text-align: center;
+}
+/*Main page text coloring and alignment*/
+#nav p{
+    text-decoration-color: aliceblue;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+footer div{
+    text-decoration-color: slategray;
+}
+#bbc {
+    display: flex;
+    text-align: left;
+}
